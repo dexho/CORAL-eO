@@ -1,0 +1,147 @@
+format-version: 1.4
+ontology:da
+date: 07:03:2021 12:44
+saved-by: dho
+auto-generated-by: ONTO-PERL 1.45
+
+[Term]
+id: DA:0000000
+name: term
+namespace: datatype.ontology
+def: "Root of all ontological terms." []
+
+[Term]
+id: DA:0000001
+name: Dynamic Object
+namespace: datatype.ontology
+def: "Dynamic Object." []
+synonym: "Brick" EXACT []
+is_a: DA:0000000 ! term
+
+[Term]
+id: DA:0000002
+name: Reference Mission Architecture
+namespace: datatype.ontology
+def: "Reference Mission Architecture." []
+synonym: "RMA" EXACT []
+is_a: DA:0000001 ! Dynamic Object
+
+[Term]
+id: DA:0000003
+name: Process
+namespace: datatype.ontology
+def: "Process." []
+is_a: DA:0000001 ! Dynamic Object
+
+[Term]
+id: DA:0000004
+name: BioProcess
+namespace: datatype.ontology
+def: "BioProcess." []
+synonym: "Biological Process" EXACT []
+is_a: DA:0000003 ! Process
+
+[Term]
+id: DA:0000005
+name: Crew
+namespace: datatype.ontology
+def: "Crew." []
+is_a: DA:0000001 ! Dynamic Object
+
+[Term]
+id: DA:0000006
+name: Habitat
+namespace: datatype.ontology
+def: "Habitat." []
+synonym: "Hab" EXACT []
+is_a: DA:0000001 ! Dynamic Object
+
+[Term]
+id: DA:0000007
+name: Association
+namespace: datatype.ontology
+def: "Association." []
+is_a: DA:0000000 ! term
+
+[Term]
+id: DA:0000008
+name: Set
+namespace: datatype.ontology
+def: "Set." []
+synonym: "Cluster" EXACT []
+synonym: "Group" EXACT []
+is_a: DA:0000007 ! Association
+
+[Term]
+id: DA:0000009
+name: Bicluster
+namespace: datatype.ontology
+def: "Bicluster." []
+is_a: DA:0000007 ! Association
+
+[Term]
+id: DA:0000010
+name: Map
+namespace: datatype.ontology
+def: "Map." []
+is_a: DA:0000007 ! Association
+
+[Term]
+id: DA:0000011
+name: Correlation
+namespace: datatype.ontology
+def: "Correlation." []
+is_a: DA:0000007 ! Association
+
+[Term]
+id: DA:0000012
+name: Similarity
+namespace: datatype.ontology
+def: "Similarity." []
+is_a: DA:0000007 ! Association
+
+[Term]
+id: DA:0000013
+name: Static Object
+namespace: datatype.ontology
+def: "Static Object." []
+is_a: DA:0000000 ! term
+
+[Term]
+id: DA:0000014
+name: Campaign Instance
+namespace: datatype.ontology
+def: "Campaign Instance." []
+is_a: DA:0000013 ! Static Object
+
+[Term]
+id: DA:0000015
+name: Techno-economics
+namespace: datatype.ontology
+def: "Techno-economics." []
+is_a: DA:0000013 ! Static Object
+
+[Term]
+id: DA:0000016
+name: Simulation
+namespace: datatype.ontology
+def: "Simulation." []
+is_a: DA:0000013 ! Static Object
+
+[Term]
+id: DA:0000017
+name: Parameters
+namespace: datatype.ontology
+def: "Parameters." []
+is_a: DA:0000016 ! Simulation
+
+[Term]
+id: DA:0000018
+name: Results
+namespace: datatype.ontology
+def: "Results." []
+is_a: DA:0000016 ! Simulation
+
+[Typedef]
+id: is_a
+name: is_a
