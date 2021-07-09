@@ -1,42 +1,27 @@
 -Context:
-  Experimental Context:
-    Series Type:
-      *Time Series (Float, time unit)
-      *Replicate Series (Int, +count unit)
-    *Condition (String)
-      *-Condition ID (Ref: DA:0000045.Condition.name)
-    *Method (String)
-    *Algorithm Parameter (String)
-    *Date (String)
-    *Time (String)
-    *DateTime (String)
-    Time Zone (String)
-    *Comment (String)
-    *Instrument (String)
-    *Category (String)
-      MIME type
-    *Description (String)
-    Link (String)
-    Experimental Process (ORef: PROCESS:0000001)
-    +Person
-    +Campaign
-    +Input
-    +Output
-    *Control
-      +Negative Control
-      +Positive Control
-    Replicate
-      +Technical Replicate
-      +Biological Replicate
-    +Subsample
-    Protocol
-      Protocol ID (Ref: DA:0000073.Protocol.name)
-    *Availability (Boolean)
-    *Usability (Boolean)
-    *Ionization Mode:
-      Positive Polarity
-      Negative Polarity
-    *Barcode (String)
+  Space Systems Engineering Context:
+    Refernce Mission Architecture:
+      *Segment length (Int, time unit)
+      *Location factor (Float)
+      *Volume equivalency factor (Float, mass unit)
+      *Power equivalency factor (Float, mass unit)
+      *Cooling equivalency factor (Float, mass unit)
+      *Crewtime equivalency factor (Float, mass unit)
+      *Crewed mission time (Int, time unit)
+      *Starting location (ORef: TODO)
+      *Ending location (ORef: TODO)
+      *Segment name (ORef: TODO)
+    Inventory:
+      *Mass (Float, mass unit)
+      *Volume (Float, volume unit)
+      *Power (Float, energy unit)
+      *Cooling (Float, energy unit)
+      *Crewtime (Float, time unit)
+      *Mean time before failure (Float, time unit)
+      *Mean time before repair (Float, time unit)
+      *Mean time to repair (Float, time unit)
+      *Number in primary (Int, substance unit)
+      *Number in spares (Int, substance unit)
   Mathematical Context
     Normalized
     +Relative
@@ -57,16 +42,7 @@
     *+Location
       *Latitude (Float, degree)
       *Longitude (Float, degree)
-      Continent (ORef: CONTINENT:0000001)
-      Country (ORef: COUNTRY:0000001)
       +Region
-      +Biome (ORef: ENVO:01000254)
-      +Environmental Feature (ORef: ENVO:00002297)
-      +US State
-      State Plane Coordinate
-        *Easting (Float, meter)
-        *Northing (Float, meter)
-        +State Plane Zone
     *+Position
       Upper
       Lower
@@ -373,24 +349,8 @@
 
 -Internal ID:
   is_a: ME:0000001
-  -Internal Location ID (Ref: DA:0000041.Location.id)
-  -Internal Sample ID (Ref: DA:0000042.Sample.id)
-  -Internal Taxon ID (Ref: DA:0000037.Taxon.id)
-  -Internal OTU ID (Ref: DA:0000063.OTU.id)
-  -Internal Condition ID (Ref: DA:0000045.Condition.id)
-  -Internal Strain ID (Ref: DA:0000062.Strain.id)
-  -Internal Community ID (Ref: DA:0000048.Community.id)
-  -Internal Reads ID (Ref: DA:0000054.Reads.id)
-  -Internal Assembly ID (Ref: DA:0000066.Assembly.id)
-  -Internal Genome ID (Ref: DA:0000039.Genome.id)
-  -Internal Gene ID (Ref: DA:0000040.Gene.id)
-  -Internal TnSeq_Library ID (Ref: DA:0000060.TnSeq_Library.id)
-  -Internal Process ID (Ref: DA:0000061.Process.id)
+  -Internal Process ID (Ref: DA:000002.Process.id)
   -Internal Brick ID (Ref: DA:0000001.Brick.id)
-  -Internal Bin ID (Ref: DA:0000072.Bin.id)
-  -Internal Protocol ID (Ref: DA:0000073.Protocol.id)
-  -Internal Image ID (Ref: DA:0000074.Image.id)
-  -Internal DubSeq_Library ID (Ref: DA:0000075.DubSeq_Library.id)
 
 -Units not in UO:
   is_a: UO:0000000

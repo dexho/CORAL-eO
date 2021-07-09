@@ -1,12 +1,12 @@
 format-version: 1.4
-date: 07:07:2021 17:28
+date: 07:07:2021 17:29
 saved-by: jmc
 auto-generated-by: ONTO-PERL 1.45
 
 [Term]
 id: :0000000
 name: term
-namespace: process_ontology.txt.ontology
+namespace: context_measurement_ontology.txt.ontology
 def: "Root of all ontological terms." []
 
 [Typedef]
