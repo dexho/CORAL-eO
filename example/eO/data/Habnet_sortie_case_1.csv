@@ -1,0 +1,42 @@
+Assembly,Subassembly,Item,M (kg),V (m^3),MTBF (h),# in Pmry,# of Spares
+ECLS,CDRA,Air Pump Two-Stage ORU,10.89,0.0045,156200,1,1
+ECLS,CDRA,Blower,5.58,0.03,129700,1,
+ECLS,CDRA,Check Valves,39.92,0.1784,32900,1,
+ECLS,CDRA,Desiccant Beds,42.64,0.085,77100,2,
+ECLS,CDRA,Heat Controller,3.31,0.0085,242700,2,
+ECLS,CDRA,Precooler,5.58,0.0255,129700,1,
+ECLS,CDRA,Pump Fan Motor Controller,2.72,0.0057,2270000,2,
+ECLS,CDRA,Selector Valves,3.04,0.0017,117000,6,
+ECLS,CDRA,Sorbent Beds (Zeolite),42.64,0.085,77100,2,
+ECLS,CCAA (x4),Condensing Heat Exchanger,49.71,0.3933,832600,4,1
+ECLS,CCAA (x4),Electronic Interface Box (EIB),4.04,0.0173,2350000,8,
+ECLS,CCAA (x4),Fan Delta Pressure Sensor,0.45,0.0002,1250000,4,
+ECLS,CCAA (x4),Heat Exchanger Liquid Sensor,0.64,0.0006,1140000,8,
+ECLS,CCAA (x4),Inlet ORU,25.31,0.1308,333000,4,
+ECLS,CCAA (x4),Pressure Transducer,0.48,0,1250000,4,
+ECLS,CCAA (x4),Temperature Control Check Valve (TCCV),7.45,0.0071,32900,8,
+ECLS,CCAA (x4),Temperature Sensor,0.26,0.0014,37600000,16,
+ECLS,CCAA (x4),Water Separator,11.93,0.0583,131000,8,
+ECLS,CCAA (x4),Water Separator Liquid Sensor,0.64,0.0006,1140000,8,
+ISRU,Water Extractor,Oven + Insulating Cone,78.05,3.3808,242700,1,22
+ISRU,Water Extractor,Hopper,58.56,3.942,,1,
+ISRU,Water Extractor,Sieve,36.52,0,500000,1,
+ISRU,Water Extractor,Augers (vertical),200.07,0,500000,1,1
+ISRU,Water Extractor,Horizontal Auger,11.38,0.1463,500000,1,
+ISRU,Water Extractor,Sweep Gas System,0.02,0,138408,1,
+ISRU,Water Extractor,Sweep Gas Piping,6.03,0.1186,,1,
+ISRU,Water Extractor,Condensing Heat Exchanger,37.81,0.8551,832600,1,
+ISRU,Water Extractor,Water Filtration System,2.18,0.0082,296701.2,1,
+ISRU,CO2 Cryocooler,Cryocooler,34.61,0.0726,500000,2,2
+ISRU,CO2 Cryocooler,Container,83.02,0.4906,,1,
+ISRU,Water Electrolyzer,Electrolysis Cell Stack,47.43,0.0045,27156,1,13
+ISRU,Water Electrolyzer,O2 Separator / Water Reservoir,5.71,0.0119,27156,1,
+ISRU,Water Electrolyzer,H2 Separator and Dryer,14.44,0.004,98112,1,
+ISRU,Water Electrolyzer,Water Pump,2.16,0.0007,144540,1,1
+ISRU,Sabatier Reactor,Reactor,20.78,0.4181,50000,1,1
+ISRU,Sabatier Reactor,Water / Methane Separator,0.24,0.0097,131000,1,
+ISRU,Sabatier Reactor,Heat Exchanger,0.53,0,832600,1,
+ISRU,Atmospheric Processor,Zeolite,0.53,0.0064,77100,1,
+ISRU,Atmospheric Processor,Compressor,8.04,0.0465,66666.7,2,1
+ISRU,Atmospheric Processor,Cryocoolers,3.1,0.0015,500000,2,1
+ISRU,Atmospheric Processor,Support Structure,3.45,,,1,

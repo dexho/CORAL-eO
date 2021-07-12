@@ -1,27 +1,43 @@
 -Context:
   Space Systems Engineering Context:
     Refernce Mission Architecture:
-      *Segment length (Int, time unit)
-      *Location factor (Float)
-      *Volume equivalency factor (Float, mass unit)
-      *Power equivalency factor (Float, mass unit)
-      *Cooling equivalency factor (Float, mass unit)
-      *Crewtime equivalency factor (Float, mass unit)
-      *Crewed mission time (Int, time unit)
-      *Starting location (ORef: TODO)
-      *Ending location (ORef: TODO)
-      *Segment name (ORef: TODO)
+      *Segment
+      +Name (String)
+      +Length (Int, time unit)
+      +Location factor (Float)
+      +Volume equivalency factor (Float, mass unit)
+      +Power equivalency factor (Float, mass unit)
+      +Cooling equivalency factor (Float, mass unit)
+      +Crewtime equivalency factor (Float, mass unit)
+      +Crewed mission time (Int, time unit)
+      +Starting location (ORef: TODO)
+      +Ending location (ORef: TODO)
+      +Segment name (ORef: TODO)
     Inventory:
-      *Mass (Float, mass unit)
-      *Volume (Float, volume unit)
-      *Power (Float, energy unit)
-      *Cooling (Float, energy unit)
-      *Crewtime (Float, time unit)
-      *Mean time before failure (Float, time unit)
-      *Mean time before repair (Float, time unit)
-      *Mean time to repair (Float, time unit)
-      *Number in primary (Int, substance unit)
-      *Number in spares (Int, substance unit)
+      *Item
+      +Mass (Float, mass unit)
+      +Volume (Float, volume unit)
+      +Power (Float, energy unit)
+      +Cooling (Float, energy unit)
+      +Crewtime (Float, time unit)
+      +Mean time before failure (Float, time unit)
+      +Mean time before repair (Float, time unit)
+      +Mean time to repair (Float, time unit)
+      +Number in primary (Int, substance unit)
+      +Number in spares (Int, substance unit)
+    Habitat:
+      *Module
+      +Name (String)
+      +Volume (Float, volume unit)
+      +pO2 (Float, ratio)
+      +pN2 (Float, ratio)
+      +pCO2 (Float, ratio)
+      +Temperature (Float, temperature unit)
+      +Pressure (Float, pressure unit)
+      +Power use (Float, energy unit)
+    Crew:
+      *Person 
+      +
   Mathematical Context
     Normalized
     +Relative

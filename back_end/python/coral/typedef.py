@@ -299,6 +299,7 @@ class TypeDef:
 
         # check that there are no undeclared properties
         for pname in data:
+            # print(pname)
             if pname not in self.__property_defs:
                 raise ValueError(
                     'The object has undeclared property: %s' % pname)

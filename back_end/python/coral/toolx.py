@@ -111,6 +111,7 @@ def upload_bricks(argv=None):
         upload_brick(file_def['file'])
 
 def update_core(file_name, type_name):
+    print('type_name', type_name)
     try:
         if file_name is None:
             print('Error: must specify file name')
@@ -142,8 +143,8 @@ def update_core(file_name, type_name):
                 # dumper.dump(data)
                 data_holder = EntityDataHolder(type_name, data)
                 ws.save_data_if_not_exists(data_holder)
-            except Exception as e:
-                print('Error in loading:', data, e)
+            except Exception:
+                print('Error in loading:', data, traceback.format_exc())
     except Exception as e:
         print('Error:', e)
 

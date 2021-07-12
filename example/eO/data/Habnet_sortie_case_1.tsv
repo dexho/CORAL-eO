@@ -1,0 +1,42 @@
+	Assembly	Subassembly	Initial Count	M (kg)	V (m^3)	MTBF (h)	# in Pmry.	# of Spares
+0	ECLS	CDRA	Air Pump Two-Stage ORU	10.89	0.0045	156200.0	1	1.0
+1	ECLS	CDRA	Blower	5.58	0.03	129700.0	1	
+2	ECLS	CDRA	Check Valves	39.92	0.1784	32900.0	1	
+3	ECLS	CDRA	Desiccant Beds	42.64	0.085	77100.0	2	
+4	ECLS	CDRA	Heat Controller	3.31	0.0085	242700.0	2	
+5	ECLS	CDRA	Precooler	5.58	0.0255	129700.0	1	
+6	ECLS	CDRA	Pump Fan Motor Controller	2.72	0.0057	2270000.0	2	
+7	ECLS	CDRA	Selector Valves	3.04	0.0017	117000.0	6	
+8	ECLS	CDRA	Sorbent Beds (Zeolite)	42.64	0.085	77100.0	2	
+9	ECLS	CCAA (x4)	Condensing Heat Exchanger	49.71	0.3933	832600.0	4	1.0
+10	ECLS	CCAA (x4)	Electronic Interface Box (EIB)	4.04	0.0173	2350000.0	8	
+11	ECLS	CCAA (x4)	Fan Delta Pressure Sensor	0.45	0.0002	1250000.0	4	
+12	ECLS	CCAA (x4)	Heat Exchanger Liquid Sensor	0.64	0.0006	1140000.0	8	
+13	ECLS	CCAA (x4)	Inlet ORU	25.31	0.1308	333000.0	4	
+14	ECLS	CCAA (x4)	Pressure Transducer	0.48	0.0	1250000.0	4	
+15	ECLS	CCAA (x4)	Temperature Control Check Valve (TCCV)	7.45	0.0071	32900.0	8	
+16	ECLS	CCAA (x4)	Temperature Sensor	0.26	0.0014	37600000.0	16	
+17	ECLS	CCAA (x4)	Water Separator	11.93	0.0583	131000.0	8	
+18	ECLS	CCAA (x4)	Water Separator Liquid Sensor	0.64	0.0006	1140000.0	8	
+19	ISRU	Water Extractor	Oven + Insulating Cone	78.05	3.3808	242700.0	1	22.0
+20	ISRU	Water Extractor	Hopper	58.56	3.9419999999999997		1	
+21	ISRU	Water Extractor	Sieve	36.52	0.0	500000.0	1	
+22	ISRU	Water Extractor	Augers (vertical)	200.07	0.0	500000.0	1	1.0
+23	ISRU	Water Extractor	Horizontal Auger	11.38	0.1463	500000.0	1	
+24	ISRU	Water Extractor	Sweep Gas System	0.02	0.0	138408.0	1	
+25	ISRU	Water Extractor	Sweep Gas Piping	6.03	0.1186		1	
+26	ISRU	Water Extractor	Condensing Heat Exchanger	37.81	0.8551	832600.0	1	
+27	ISRU	Water Extractor	Water Filtration System	2.18	0.0082	296701.2	1	
+28	ISRU	CO2 Cryocooler	Cryocooler	34.61	0.0726	500000.0	2	2.0
+29	ISRU	CO2 Cryocooler	Container	83.02	0.4906		1	
+30	ISRU	Water Electrolyzer	Electrolysis Cell Stack	47.43	0.0045	27156.0	1	13.0
+31	ISRU	Water Electrolyzer	O2 Separator / Water Reservoir	5.71	0.0119	27156.0	1	
+32	ISRU	Water Electrolyzer	H2 Separator and Dryer	14.44	0.004	98112.0	1	
+33	ISRU	Water Electrolyzer	Water Pump	2.16	0.0007	144540.0	1	1.0
+34	ISRU	Sabatier Reactor	Reactor	20.78	0.4181	50000.0	1	1.0
+35	ISRU	Sabatier Reactor	Water / Methane Separator	0.24	0.0097	131000.0	1	
+36	ISRU	Sabatier Reactor	Heat Exchanger	0.53	0.0	832600.0	1	
+37	ISRU	Atmospheric Processor	Zeolite	0.53	0.0064	77100.0	1	
+38	ISRU	Atmospheric Processor	Compressor	8.04	0.0465	66666.7	2	1.0
+39	ISRU	Atmospheric Processor	Cryocoolers	3.1	0.0015	500000.0	2	1.0
+40	ISRU	Atmospheric Processor	Support Structure	3.45			1	

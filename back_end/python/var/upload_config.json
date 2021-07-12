@@ -20,14 +20,6 @@
         }
     ],
     "bricks": [],
-    "entities": [
-        {
-            "file": "Habnet_sortie_case_1.xlsx",
-            "dtype": "Inventory"
-        }, {
-            "file": "RMA.xlsx",
-            "dtype": "RMA"
-        }
-    ],
+    "entities": [],
     "processes": []    
 }

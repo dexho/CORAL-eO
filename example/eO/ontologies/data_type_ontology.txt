@@ -1,13 +1,15 @@
 Dynamic Object
   alias: Brick
-  Reference Mission Architecture
-    alias: RMA
+  Inventory
   Process
     BioProcess
       alias: Biological Process
   Crew
   Habitat
     alias: Hab
+  Reference Mission Architecture
+    alias: RMA
+    
 Association
   Set
     alias: Group
@@ -18,7 +20,7 @@ Association
   Similarity
 
 Static Object
-  Campaign Instance
+  Campaign
   Techno-economics
   Simulation
     Parameters

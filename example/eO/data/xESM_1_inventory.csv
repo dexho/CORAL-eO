@@ -1,0 +1,19 @@
+﻿ItemID,Assembly,Subassembly,Item,Count,Mass,Volume,Power,Cooling,Crewtime
+1,Transit to Mars,BioM,Crop reactor/Plant growth chamber,1,399.16,,,,
+2,Transit to Mars,BioM,Crop storage,1,,,,,
+3,Transit to Mars,Food,Food - 210 (initial transit) + 50 (surface) + 210 (return),1,1739.94,2.3141202,,,1.5
+4,Transit to Mars,Food,Packaging ,1,2027.0301,2.695950033,,,
+5,Transit to Mars,Food,Fridges - 3 needed,3,321,2,0.205,0.228,0
+6,Transit to Mars,Food,Processing,1,36.6,0.09,0.001,0.001,0
+7,Surface Operations,BioM,Crop reactor/Plant growth chamber,1,399.16,,0.221,0.221,0
+8,Surface Operations,BioM,Crop storage,1,1665.9,12.8,,,0
+9,Surface Operations,Food,Food - 50 (surface) + 210 (return),1,962.52,1.2801516,,,1.5
+10,Surface Operations,Food,Packaging ,1,1121.3358,1.491376614,,,0
+11,Surface Operations,Food,Fridges - 3 needed,3,321,2,0.205,0.228,0
+12,Surface Operations,Food,Processing,1,36.6,0.09,0.001,0.001,0
+13,Return Transit,BioM,Crop reactor/Plant growth chamber,1,,,,,
+14,Return Transit,BioM,Crop storage,1,,,,,
+15,Return Transit,Food,Food -  210 (return),1,777.42,1.0339686,,,1.5
+16,Return Transit,Food,Packaging ,1,905.6943,1.204573419,,,
+17,Return Transit,Food,Fridges - 5 needed,5,321,2,0.205,0.228,0
+18,Return Transit,Food,Processing,1,36.6,0.09,0.001,0.001,0
