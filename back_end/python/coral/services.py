@@ -58,6 +58,7 @@ def _init_db_connection():
     __arango_conn = Connection(arangoURL=__arango_config['url'],username=__arango_config['user'], password=__arango_config['password'])
 
     global arango_service
+    print(__arango_conn, __arango_config['db'])
     arango_service = ArangoService(__arango_conn, __arango_config['db'])
 
 
