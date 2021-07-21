@@ -1,12 +1,12 @@
 {
   "Import": {
-    "ontology_dir": "/Users/desho/CORAL-eO/example/eO/ontologies",
-    "entity_dir": "/Users/desho/CORAL-eO/example/eO/data",
-    "process_dir": "/Users/desho/CORAL-eO/example/eO/data",
-    "brick_dir": "/Users/desho/CORAL-eO/example/eO/data"
+    "ontology_dir": "/home/eo/CORAL-eO/example/eO/ontologies",
+    "entity_dir": "/home/eo/CORAL-eO/example/eO/data",
+    "process_dir": "/home/eo/CORAL-eO/example/eO/data",
+    "brick_dir": "/home/eo/CORAL-eO/example/eO/data"
   },
   "Workspace": {
-    "data_dir": "/Users/desho/CORAL-eO/example/eO/data"
+    "data_dir": "/home/eo/CORAL-eO/example/eO/data"
   }, 
  "ArangoDB": {
     "url": "http://127.0.0.1:8529",
@@ -17,12 +17,12 @@
   "WebService": {
     "port": 8082,
     "https": true,
-    "cert_pem": "/Users/desho/localhost-ssl/cert.pem",
-    "key_pem": "/Users/desho/localhost-ssl/key.pem",
-    "plot_types_file": "plot_types.json",
-    "auth_private": "/Users/desho/.ssh/id_rsa",
-    "auth_public": "/Users/desho/.ssh/id_rsa.pub",
-    "project_root": "/Users/desho/CORAL-eO/",
+    "cert_pem": "/home/eo/localhost.crt",
+    "key_pem": "/home/eo/localhost.crt",
+    "plot_types_file": "/home/eo/CORAL-eO/plot_types.json",
+    "auth_private": "/home/eo/prod/modules/coral.key",
+    "auth_public": "/home/eo/prod/modules/coral.key.pub",
+    "project_root": "/home/eo/CORAL-eO/",
     "users": "/path/to/users.json",
     "google_auth_file": "/path/to/google_auth_file",
     "captcha_secret_key": "xxx",
