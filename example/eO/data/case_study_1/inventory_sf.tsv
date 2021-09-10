@@ -1,0 +1,7 @@
+Name	Process	Item	Count	Mass	Volume	Power	Cooling	Crewtime
+Inventory-sf-1	BioM	Crop reactor/Plant growth chamber	1	399.16	0.0	0.221	0.221	0.0
+Inventory-sf-2	BioM	Crop storage	1	1665.9	12.8	0.0	0.0	0.0
+Inventory-sf-3	Food	Food - 50 (surface) + 210 (return)	1	962.52	1.2801516000000002	0.0	0.0	1.5
+Inventory-sf-4	Food	Packaging 	1	1121.3358	1.4913766140000002	0.0	0.0	0.0
+Inventory-sf-5	Food	Fridges - 3 needed	3	321.0	2.0	0.205	0.228	0.0
+Inventory-sf-6	Food	Processing	1	36.6	0.09	0.001	0.001	0.0

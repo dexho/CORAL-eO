@@ -1,0 +1,27 @@
+Dynamic Object
+  alias: Brick
+  Inventory
+  Process
+    BioProcess
+      alias: Biological Process
+  Crew
+  Habitat
+    alias: Hab
+  Reference Mission Architecture
+    alias: RMA
+    
+Association
+  Set
+    alias: Group
+    alias: Cluster
+  Bicluster
+  Map
+  Correlation
+  Similarity
+
+Static Object
+  Campaign
+  Techno-economics
+  Simulation
+    Parameters
+    Results

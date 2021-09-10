@@ -223,32 +223,37 @@ class Workspace:
             current_pk_id = self._get_pk_id(data_holder.type_name, upk_id)
         except:
             current_pk_id = None
-        if current_pk_id is None:
-            self.save_data(data_holder)
-        else:
-            print('skipping %s due to older object' % upk_id)
-            if preserve_logs:
-                # validate new data with old id before raising ItemAlreadyExistsError
-                data_holder_2 = EntityDataHolder(data_holder.type_name, data_holder.data)
-                data_holder_2.set_id(current_pk_id)
-                self._validate_object(data_holder_2)
 
-                # if validation passes, get original data for comparison
-                aql = 'FOR x IN @@collection FILTER x.id == @pk_id RETURN x'
-                aql_bind = {
-                    '@collection': TYPE_CATEGORY_STATIC + data_holder.type_name,
-                    'pk_id': current_pk_id
-                }
+        ## @author DH
+        ## overcome uniqueness requirement
+        self.save_data(data_holder)
 
-                new_data = IndexDocument.build_index_doc(data_holder)
+        # if current_pk_id is None:
+        #     self.save_data(data_holder)
+        # else:
+        #     print('skipping %s due to older object' % upk_id)
+        #     if preserve_logs:
+        #         # validate new data with old id before raising ItemAlreadyExistsError
+        #         data_holder_2 = EntityDataHolder(data_holder.type_name, data_holder.data)
+        #         data_holder_2.set_id(current_pk_id)
+        #         self._validate_object(data_holder_2)
 
-                result = self.__arango_service.find(aql, aql_bind)
-                raise ItemAlreadyExistsException(
-                    'object %s already exists in system' % upk_id,
-                    new_data=new_data,
-                    old_data={k: v for (k, v) in result[0].items() if not k.startswith('_')},
-                    data_holder={k: v for (k, v) in data_holder.data.items() if not k.startswith('_')}
-                )
+        #         # if validation passes, get original data for comparison
+        #         aql = 'FOR x IN @@collection FILTER x.id == @pk_id RETURN x'
+        #         aql_bind = {
+        #             '@collection': TYPE_CATEGORY_STATIC + data_holder.type_name,
+        #             'pk_id': current_pk_id
+        #         }
+
+        #         new_data = IndexDocument.build_index_doc(data_holder)
+
+        #         result = self.__arango_service.find(aql, aql_bind)
+        #         raise ItemAlreadyExistsException(
+        #             'object %s already exists in system' % upk_id,
+        #             new_data=new_data,
+        #             old_data={k: v for (k, v) in result[0].items() if not k.startswith('_')},
+        #             data_holder={k: v for (k, v) in data_holder.data.items() if not k.startswith('_')}
+        #         )
             # check for consistency
             # for now throw an error, although we may want to upsert instead
             # data_holder_2 = EntityDataHolder(data_holder.type_name,

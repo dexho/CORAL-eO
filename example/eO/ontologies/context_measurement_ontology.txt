@@ -1,30 +1,24 @@
 -Context:
   Space Systems Engineering Context:
     Refernce Mission Architecture:
-      *Segment
+      alias: RMA
       +Name (String)
-      +Length (Int, time unit)
-      +Location factor (Float)
-      +Volume equivalency factor (Float, mass unit)
-      +Power equivalency factor (Float, mass unit)
-      +Cooling equivalency factor (Float, mass unit)
-      +Crewtime equivalency factor (Float, mass unit)
-      +Crewed mission time (Int, time unit)
-      +Starting location (ORef: TODO)
-      +Ending location (ORef: TODO)
-      +Segment name (ORef: TODO)
+      +Duration (Int, time unit)
+      +Veq (Float, mass unit)
+      +Peq (Float, mass unit)
+      +Ceq (Float, mass unit)
+      +Teq (Float, mass unit)
+      +Leq (Float, mass unit)
     Inventory:
-      *Item
+      *Name (String)
+      *Assembly (String)
+      *Subassembly (String)
+      *Item (String)
       +Mass (Float, mass unit)
       +Volume (Float, volume unit)
       +Power (Float, energy unit)
       +Cooling (Float, energy unit)
       +Crewtime (Float, time unit)
-      +Mean time before failure (Float, time unit)
-      +Mean time before repair (Float, time unit)
-      +Mean time to repair (Float, time unit)
-      +Number in primary (Int, substance unit)
-      +Number in spares (Int, substance unit)
     Habitat:
       *Module
       +Name (String)

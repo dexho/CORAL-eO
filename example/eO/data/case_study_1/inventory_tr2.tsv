@@ -1,0 +1,7 @@
+Name	Process	Item	Count	Mass	Volume	Power	Cooling	Crewtime
+Inventory-tr2-1	BioM	Crop reactor/Plant growth chamber	1	0.0	0.0	0.0	0.0	0.0
+Inventory-tr2-2	BioM	Crop storage	1	0.0	0.0	0.0	0.0	0.0
+Inventory-tr2-3	Food	Food -  210 (return)	1	777.42	1.0339686	0.0	0.0	1.5
+Inventory-tr2-4	Food	Packaging 	1	905.6943	1.204573419	0.0	0.0	0.0
+Inventory-tr2-5	Food	Fridges - 5 needed	5	321.0	2.0	0.205	0.228	0.0
+Inventory-tr2-6	Food	Processing	1	36.6	0.09	0.001	0.001	0.0

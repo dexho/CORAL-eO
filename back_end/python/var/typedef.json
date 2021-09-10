@@ -160,24 +160,18 @@
           "PK": true
         },
         {
-          "name": "ItemID",
-          "type_term": "ME:0000102",
-          "scalar_type": "int",
-          "units_term": "UO:0000190",
-          "required": true,
-          "UPK": true
-        },
-        {
-          "name": "Assembly",
+          "name": "Name",
           "type_term": "ME:0000102",
           "scalar_type": "text",
           "required": true,
           "UPK": true
         },
         {
-          "name": "Subassembly",
-          "type_term": "ME:0000203",
-          "scalar_type": "text"
+          "name": "Process",
+          "type_term": "ME:0000102",
+          "scalar_type": "text",
+          "required": true,
+          "UPK": true
         },
         {
           "name": "Item",
@@ -219,24 +213,6 @@
           "type_term": "ME:0000264",
           "scalar_type": "float",
           "units_term": "UO:0000190"
-        },
-        {
-          "name": "MTBF",
-          "type_term": "ME:0000264",
-          "scalar_type": "float",
-          "units_term": "UO:0000190"
-        },
-        {
-          "name": "# in Pmry",
-          "type_term": "ME:0000264",
-          "scalar_type": "float",
-          "units_term": "UO:0000190"
-        },
-        {
-          "name": "# of Spares",
-          "type_term": "ME:0000264",
-          "scalar_type": "float",
-          "units_term": "UO:0000190"
         }
       ],
       "process_types": ["PROCESS:0000002"],
@@ -251,15 +227,32 @@
           "name": "id",
           "type_term": "ME:0000267",
           "scalar_type": "text",
-          "required": true,
           "PK": true
+        },
+        {
+          "name": "Name",
+          "type_term": "ME:0000102",
+          "scalar_type": "text",
+          "required": true,
+          "UPK": true
         },
         {
           "name": "Segment",
           "type_term": "ME:0000102",
           "scalar_type": "text",
-          "required": true,
-          "UPK": true
+          "required": true
+        },
+        {
+          "name": "Locations",
+          "type_term": "ME:0000102",
+          "scalar_type": "text",
+          "required": true
+        },
+        {
+          "name": "Inventory",
+          "type_term": "ME:0000102",
+          "scalar_type": "text",
+          "required": true
         },
         {
           "name": "Leq",
@@ -292,7 +285,13 @@
           "units_term": "UO:0000190"
         },
         {
-          "name": "Length",
+          "name": "Duration",
+          "type_term": "ME:0000264",
+          "scalar_type": "int",
+          "units_term": "UO:0000190"
+        },
+        {
+          "name": "Crew",
           "type_term": "ME:0000264",
           "scalar_type": "int",
           "units_term": "UO:0000190"

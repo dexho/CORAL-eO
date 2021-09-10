@@ -1,0 +1,13 @@
+Process
+  -Create Campaign
+    -Create Submodule
+  -Add RMA
+  -Add Inventory
+  -Add Process 
+    -Add BioProcess
+  -Add Crew
+  -Add Habitat
+  -Techno-economics
+  -Simulation
+    -Parameters
+    -Resutls
