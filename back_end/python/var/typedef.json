@@ -1,7 +1,7 @@
 {
   "system_types":[
     {
-      "name": "Process",
+      "name": "Processes",
       "term": "DA:0000061",
       "used_for_provenance": true,
       "fields": [
@@ -54,98 +54,6 @@
     {
       "name": "CUBES",
       "fields": []
-    },
-    {
-      "name": "Campaign",
-      "term": "DA:0000041",
-      "used_for_provenance": true,
-      "fields": [
-        {
-          "name": "id",
-          "type_term": "ME:0000266",
-          "scalar_type": "text",
-          "required": true,
-          "PK": true
-        },
-        {
-          "name": "name",
-          "type_term": "ME:0000228",
-          "scalar_type": "text",
-          "required": true,
-          "UPK": true
-        },
-        {
-          "name": "pointer",
-          "type_term": "ME:0000203",
-          "required": true,
-          "scalar_type": "text"
-        }
-      ],
-      "process_types": ["PROCESS:0000028"],
-      "process_inputs": [["CUBES"]]
-    },
-    {
-      "name":"Techno-economics",
-      "term": "DA:0000042",
-      "used_for_provenance": true,
-      "fields": [
-        {
-          "name": "id",
-          "type_term": "ME:0000267",
-          "scalar_type": "text",
-          "required": true,
-          "PK": true
-        },
-        {
-          "name": "name",
-          "type_term": "ME:0000102",
-          "scalar_type": "text",
-          "required": true,
-          "UPK": true
-        },
-        {
-          "name": "pointer",
-          "type_term": "ME:0000203",
-          "scalar_type": "text"
-        },
-        {
-          "name": "total-mass",
-          "type_term": "ME:0000228",
-          "scalar_type": "float",
-          "required": true,
-          "units_term": "UO:0000008"
-        }
-      ],
-      "process_types": ["PROCESS:0000002"],
-      "process_inputs": [["Campaign"]]
-    },
-    {
-      "name":"Simulation",
-      "term": "DA:0000042",
-      "used_for_provenance": true,
-      "fields": [
-        {
-          "name": "id",
-          "type_term": "ME:0000267",
-          "scalar_type": "text",
-          "required": true,
-          "PK": true
-        },
-        {
-          "name": "name",
-          "type_term": "ME:0000102",
-          "scalar_type": "text",
-          "required": true,
-          "UPK": true
-        },
-        {
-          "name": "pointer",
-          "type_term": "ME:0000203",
-          "scalar_type": "text"
-        }
-      ],
-      "process_types": ["PROCESS:0000002"],
-      "process_inputs": [["Campaign"]]
     },
     {
       "name":"Inventory",
@@ -294,6 +202,59 @@
           "name": "Crew",
           "type_term": "ME:0000264",
           "scalar_type": "int",
+          "units_term": "UO:0000190"
+        }
+      ],
+      "process_types": ["PROCESS:0000002"],
+      "process_inputs": [["Campaign"]]
+    },
+    {
+      "name":"Crew",
+      "term": "DA:0000042",
+      "used_for_provenance": true,
+      "fields": [
+        {
+          "name": "id",
+          "type_term": "ME:0000267",
+          "scalar_type": "text",
+          "PK": true
+        },
+        {
+          "name": "Name",
+          "type_term": "ME:0000102",
+          "scalar_type": "text",
+          "required": true,
+          "UPK": true
+        },
+        {
+          "name": "Age",
+          "type_term": "ME:0000102",
+          "scalar_type": "float",
+          "required": true
+        },
+        {
+          "name": "Sex",
+          "type_term": "ME:0000102",
+          "scalar_type": "text",
+          "required": true
+        },
+        {
+          "name": "Weight",
+          "type_term": "ME:0000102",
+          "scalar_type": "float",
+          "required": true
+        },
+        {
+          "name": "Height",
+          "type_term": "ME:0000264",
+          "scalar_type": "float",
+          "units_term": "UO:0000190",
+          "required": true
+        },
+        {
+          "name": "Schedule",
+          "type_term": "ME:0000264",
+          "scalar_type": "text",
           "units_term": "UO:0000190"
         }
       ],

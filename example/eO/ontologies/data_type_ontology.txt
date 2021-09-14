@@ -1,27 +1,21 @@
 Dynamic Object
   alias: Brick
-  Inventory
-  Process
-    BioProcess
-      alias: Biological Process
-  Crew
-  Habitat
-    alias: Hab
   Reference Mission Architecture
     alias: RMA
+  Inventory
+  Processes
+  Crew
+  Orbital Mechanics
+  Martian Environment
     
-Association
-  Set
-    alias: Group
-    alias: Cluster
-  Bicluster
-  Map
-  Correlation
-  Similarity
-
 Static Object
-  Campaign
-  Techno-economics
-  Simulation
-    Parameters
-    Results
+  Technology-Integration-Systems Readiness Level
+    alias: TIS-RL
+  Equivalent System Mass 
+    alias: ESM 
+  Extended Equivalent System Mass
+    alias: xESM
+  Initial Mass to Low Earth Orbit
+    alias: IMLEO
+  Systems complexity Metric 
+    alias: SCM

@@ -1,5 +1,5 @@
 Name	Segment	Locations	Inventory	Duration	Crew	Leq	Veq	Peq	Ceq	Teq
-RMA-CS1-pd	pd	earth, earth-orbit, mars-orbit, mars	inventory_pd	210	0	2.77	9.16	237	40	0.7
-RMA-CS1-tr1	tr1	earth, earth-orbit, mars-orbit, mars	inventory_tr1	410	4	10.0	9.16	136	50	0.7
-RMA-CS1-tr2	tr2	mars, mars-orbit, earth-orbit, earth	inventory_tr2	410	4	10.0	9.16	136	50	0.7
-RMA-CS1-sf	sf	mars	inventory_sf	500	4	1.0	9.16	228	145	0.7
+RMA-CS1-pd	pd	earth, earth-orbit, mars-orbit, mars	inventory-pd	210	0	2.77	9.16	237	40	0.7
+RMA-CS1-tr1	tr1	earth, earth-orbit, mars-orbit, mars	inventory-tr1	410	4	10.0	9.16	136	50	0.7
+RMA-CS1-tr2	tr2	mars, mars-orbit, earth-orbit, earth	inventory-tr2	410	4	10.0	9.16	136	50	0.7
+RMA-CS1-sf	sf	mars	inventory-sf	500	4	1.0	9.16	228	145	0.7

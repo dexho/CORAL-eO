@@ -1,7 +1,6 @@
 -Context:
   Space Systems Engineering Context:
-    Refernce Mission Architecture:
-      alias: RMA
+    Mission Context:
       +Name (String)
       +Duration (Int, time unit)
       +Veq (Float, mass unit)
@@ -9,29 +8,19 @@
       +Ceq (Float, mass unit)
       +Teq (Float, mass unit)
       +Leq (Float, mass unit)
-    Inventory:
-      *Name (String)
-      *Assembly (String)
-      *Subassembly (String)
+    Inventory Context:
+      +Assembly (String)
+      +Subassembly (String)
+      +Subsubassembly (String)
       *Item (String)
       +Mass (Float, mass unit)
       +Volume (Float, volume unit)
       +Power (Float, energy unit)
       +Cooling (Float, energy unit)
       +Crewtime (Float, time unit)
-    Habitat:
-      *Module
-      +Name (String)
-      +Volume (Float, volume unit)
-      +pO2 (Float, ratio)
-      +pN2 (Float, ratio)
-      +pCO2 (Float, ratio)
-      +Temperature (Float, temperature unit)
-      +Pressure (Float, pressure unit)
-      +Power use (Float, energy unit)
-    Crew:
+    Crew Context:
       *Person 
-      +
+      Sex
   Mathematical Context
     Normalized
     +Relative
@@ -74,193 +63,6 @@
     Phase (String)
     Image
       *Image ID (Ref: DA:0000074.Image.name)
-    *Geologic Zone:
-      Vadose Zone
-        alias: Unsaturated Zone
-      Variably Saturated Zone
-      Saturated Zone
-        alias: Phreatic Zone
-  Chemical Context:
-    **Molecule
-      *-Molecule from list (ORef: CHEBI:24431)
-      *-PubChem Molecule Name (String)
-      *-Molecular Formula (String)
-      *-InChIKey (String)
-    Reagent
-    *Reaction (String)
-    *Surface Type (String)
-    Bead Type (String)
-    Bead Size (Float, length unit)
-    Thermodynamic Context
-      delta-G (Float, energy unit)
-      delta-H (Float, energy unit)
-    Specific Activity (Float)
-    Wavelength (Float, length unit)
-    *State (String)
-    *Detection Limit (Float)
-    Organic (Boolean)
-    *Molecular Weight (Float, +dalton)
-    Reference Compound
-    *Isotope (ORef: CHEBI:24431)
-  Biological Context
-    Cell
-    Colony
-    **Strain
-      alias: Isolate
-      Strain Name (String)
-      *-Strain ID (Ref: DA:0000062.Strain.name)
-        alias: Isolate ID
-    **OTU
-      alias: Operational Taxonomic Unit
-      OTU Name (String)
-      *-OTU ID (Ref: DA:0000063.OTU.Name)
-    *ESV (String)
-      alias: Exact Sequence Variant
-      alias: Unique Sequence Variant
-      alias: Sub-OTU
-    **Taxon
-      Taxon Name (String)
-      *-Taxon ID (Ref: DA:0000037.Taxon.name)
-      *NCBI Taxon ID (ORef: NCBITaxon:1)
-    **Media
-      Media Name (String)
-      Media Composition (String)
-      *Media Addition (String)
-    Metabolite
-      is_a: ME:0000027
-    Substrate
-      *+Carbon Source
-      *+Nitrogen Source
-      *+Electron Donor
-      *+Electron Acceptor
-    **Gene
-      *-Gene ID (Ref: DA:0000040.Gene.gene_id)
-      *-Gene Name (Ref: DA:0000040.Gene.aliases)
-      *-Gene GI (Int)
-      Homologous Gene
-        Orthologous Gene
-        Paralogous Gene
-      Essential Gene
-    Gene Annotation
-    Genome
-      Genome ID (Ref: DA:0000039.Genome.name)
-    Assembly
-      Assembly ID (Ref: DA:0000066.Assembly.name)
-    Bin
-      Bin ID (Ref: DA:0000072.Bin.name)
-    *+Protein
-    Protein Annotation
-      KEGG Subsystem (ORef: KEGG)
-      TIGR Role (ORef: TIGR)
-      SEED Subsystem
-        SEED Subsystem ID (String)
-      Protein Domain
-        Pfam Domain
-          Pfam Domain Accession (ORef: Pfam)
-    Operon
-    Ribosome
-    Growth Parameter
-      Growth Rate (Float, rate unit)
-      Doubling Time (Float, time unit)
-      *Time Since Inoculation (Float, time unit)
-      Growth Efficiency
-    Gene Regulation
-      Up-regulated
-      Down-regulated
-      Transcription Factor
-      Motif
-      Binding Site
-      Regulon
-    *Taxonomic Level:
-      Taxonomic Domain
-      Kingdom
-      Phylum
-      Class
-      Order
-      Family
-      Genus
-      Species
-    Strain Change
-      alias: Mutation
-      Strain Change Type:
-        Insertion
-        Deletion
-        Substitution
-      Strain Change Effect:
-        Synonymous
-        Non-Synonymous
-        Frameshift
-        Stop
-    Knockout
-    Knockout Library
-      Tn-Seq Library
-        *Tn-Seq Library Name (Ref: DA:0000060.TnSeq_Library.name)
-        Tn-Seq Primers Model (String)
-    Overexpression Library
-      Dub-Seq Library
-        *Dub-Seq Library Name (Ref: DA:0000075.DubSeq_Library.name)
-    Environment
-      *Environmental Sample Location (String)
-        alias: Well
-        alias: Core
-        alias: Borehole
-        *-Environmental Sample Location ID (Ref: DA:0000041.Location.name)
-          alias: Location ID
-      *Environmental Sample
-        *Environmental Sample Name (String)
-        *-Environmental Sample ID (Ref: DA:0000042.Sample.name)
-      *Environmental Parameter
-        *-Environmental Chemical (ORef: CHEBI:24431)
-        *-Environmental Measurement (ORef: ME:0000120)
-      +Environment Type (ORef: MIxS:0000002)
-      +Environmental Material (ORef: ENVO:00010483)
-    *Community
-      Community Name (String)
-      *-Community ID (Ref: DA:0000048.Community.name)
-      Community Type:
-        Isolate Community
-        Environmental Community
-        Enrichment
-          Active Fraction
-        Assemblage
-          Consortium
-    Ecology
-      Community Assembly Process:
-        Variable Selection
-        Homogenous Selection
-        Dispersal Limitation
-        Homogenizing Dispersal
-        Undominated
-    Sequencing
-      Read
-      Read Type:
-        Paired End Read
-        Single End Read
-      *Read Set
-        alias: Reads
-        *-Reads ID (Ref: DA:0000054.Reads.name)
-      *Contig
-      *Genomic Region
-      Sequence Position
-        *Sequence Start (Int, +base pairs)
-        *Sequence Stop (Int, +base pairs)
-        *Sequence Length (Int, +base pairs)
-      Base Pair
-      Sequencing Technology:
-        Illumina
-        Pacbio
-      GC content
-      *Strand:
-        Forward
-        Reverse Complement
-      *Sequence Type:
-        16S Sequence
-        18S Sequence
-        ITS Sequence
-          ITS-1 Sequence
-          ITS-2 Sequence
-        Genome Sequence
-
 *Measurement:
   is_a: ME:0000001
   *pH (Float, ph, mV)
@@ -286,8 +88,6 @@
   Absorbance (Float)
   Heat (Float)
   *Mass (Float, mass unit)
-  *Fitness Score (Float, +log ratio unit)
-  Genetic Interaction Score (Float)
   Stoichiometric Ratio (Float)
   *Isotope Ratio (Float, ratio, parts per notation unit, +percent)
   *Relative Abundance (Float, ratio)
@@ -313,49 +113,6 @@
   *Wind Direction (Float, degree)
   *Relative Humidity (Float, ratio)
   *Error Range (Float)
-
-*Statistic:
-  is_a: ME:0000001
-  *Average (Float)
-  Difference (Float)
-  *Standard Deviation (Float)
-  *Standard Error (Float)
-  *Coefficient of Variation (Float)
-    alias: CV
-  Minimum (Float)
-  Maximum (Float)
-  Median (Float)
-  Ratio (Float)
-  Log Ratio (Float)
-  p Value (Float)
-  T Score (Float)
-  Frequency (Float)
-  *Fold Enrichment (Float)
-  *Confidence (Float, ratio)
-  Evaluation
-    Precision (Float)
-    Recall (Float)
-    True Positive (Int)
-      alias: TP
-    False Positive (Int)
-      alias: FP
-    True Negative (Int)
-      alias: TN
-    False Negative (Int)
-      alias: FN
-  Correlation (Float)
-    Pearson
-    Spearman
-    Kendall tau
-    Goodman and Kruskal's gamma
-  Multivariate Analysis
-    Factor Analysis
-      Factor (Int)
-      Factor Loading (Float)
-    Principal Component Analysis
-      Principal Component (Int)
-      Component Weight (Float)
-      Explained Variance
 
 -Internal ID:
   is_a: ME:0000001
@@ -417,17 +174,3 @@
   base pairs
     alias: bases
     is_a: UO:0000189
-
--Molecules not in ChEBI:
-  is_a: CHEBI:24431
-  sodium oxide
-    alias: Na2O
-  barium oxide
-    alias: BaO
-  manganese(II) oxide 
-    alias: MnO
-  cobalt(II) oxide
-    alias: CoO
-  nickel(II) oxide
-    alias: NiO
-  1,2-dipalmitoyl-rac-glycero-3-phosphoethanolamine
