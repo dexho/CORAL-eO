@@ -1,0 +1,12 @@
+{
+      "BiosimCrew": {
+            "Inflatable": {
+                  "O2": "(<bound method HabnetCrewModel.calc_O2 of <eo.items.habnet_cm.HabnetCrewModel object at 0x7fdee6c9a040>>, ['intensity'])",
+                  "CO2": "(<bound method HabnetCrewModel.calc_CO2 of <eo.items.habnet_cm.HabnetCrewModel object at 0x7fdee6c9a040>>, ['intensity'])",
+                  "H2O": "(<bound method HabnetCrewModel.calc_vapor of <eo.items.habnet_cm.HabnetCrewModel object at 0x7fdee6c9a040>>, ['intensity'])"
+            },
+            "PotableWaterStore": {
+                  "H2O": "-0.1667"
+            }
+      }
+}

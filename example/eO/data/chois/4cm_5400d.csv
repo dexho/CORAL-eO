@@ -1,0 +1,216 @@
+System,Subsystem,Item,M,V,P,C,T
+Air,APC,Vent/Relief Valve,5.4,0.0141,0,0,0
+Air,APC,Pressure control panel,11.2,0.034,18,18,0
+Air,APC,Manual Pressure Equalization Valve,9.6,0.0112,0,0,0
+Air,APC,Positive Pressure Relief Valve,1.8,0.0034,0,0,0
+Air,APC,Negative Pressure Relief Valve,3,0.0093,0,0,0
+Air,APC,Nitrogen Interface Assembly,7.5,0.0122,5.5,5.5,0
+Air,APC,Vacuum Access Jumper 5-ft,0.7,0.00043,0,0,0
+Air,APC,Vacuum Access Jumper 35-ft,3.2,0.003,0,0,0
+Air,ACMA,Verification Gas Assembly,5.4,0.0136,0.1,0.1,0
+Air,ACMA,Mass Spectrometer,13.9,0.0238,31.8,31.8,0
+Air,ACMA,Sample Pump,3.4,0.0045,4,4,0
+Air,ACMA,Sample Distributor,2.1,0.0045,0.1,0.1,0
+Air,ACMA,Data & Control,8,0.0141,34.9,34.9,0
+Air,ACMA,Low Volt. Power supply,5.7,0.0054,30.8,30.8,0
+Air,ACMA,Chassis,15.8,0.0238,0,0,0
+Air,ACMA,Inlet Valve Assembly,0,0,0,0,0
+Air,ACMA,EMI Filter,0,0,1.8,1.8,0
+Air,SDS,3-way solenoid valves,31.5,0.0345,0,0,0
+Air,SDS,Manual valves,2.53,0.0066,0,0,0
+Air,SDS,Sample probes,1.08,0.00024,0,0,0
+Air,CO2_removal_4BMS,Air Selector Valve,12.59824789,0.008237316,0.679299988,0.679299988,29.5890411
+Air,CO2_removal_4BMS,Desiccant  Bed,23.50377958,0.240472196,0,0,7.101369863
+Air,CO2_removal_4BMS,Adsorbent Bed,32.06295943,0,559.7431901,559.7431901,0
+Air,CO2_removal_4BMS,Air Check Valve,0.161515999,0,0,0,0
+Air,CO2_removal_4BMS,Heater Controller,6.6,0.0016,38,38,0.295890411
+Air,CO2_removal_4BMS,Air Blower,0.807579993,0.0201895,39.3993993,39.3993993,1.923287671
+Air,CO2_removal_4BMS,Precooler,2.180465981,0,0,0,0
+Air,CO2_removal_4BMS,Blower/precooler Motor Controller,1.3,0,5,5,0
+Air,CO2_removal_4BMS,CO2 Pump,6.622155941,0.00363411,12.90669977,12.90669977,1.183561644
+Air,CO2_removal_4BMS,CO2 Pump Motor Controller,1.3,0.0057,2,2,0.147945205
+Air,CO2_removal_4BMS,Temperature Sensor,0.399,0,1,1,0
+Air,CO2_removal_4BMS,Differential Pressure Sensor,0.2,0,1,1,0
+Air,CO2_removal_4BMS,Absolute Pressure Sensor,0.2,0,1,1,0
+Air,CO2_removal_4BMS,Electrical Harness,4.5,0,0,0,0
+Air,CO2_removal_4BMS,Plumbing,4.764721957,0,0,0,0
+Air,CO2_removal_4BMS,Support Structure,29.15363774,0,0,0,0
+Air,CO2_removal_4BMS,Fluid Disconnects,1.938191983,0,0,0,0
+Air,CO2_removal_4BMS,Electronics coldplate,2.665013976,0,0,0,0
+Air,CO2_removal_4BMS,Electronics Interface Plate,1.6,0,0,0,0
+Air,N2_storage,MD Shield Instl,0,0,0,0,0
+Air,N2_storage,Multilayer Insulation Assembly-T #1,0,0,0,0,0
+Air,N2_storage,Multilayer Insulation Assembly-T #2,0,0,0,0,0
+Air,N2_storage,Primary Structure Assembly -HPG ORU,0,0,0,0,0
+Air,N2_storage,Tank ORU Assembly,0,0,0,0,0
+Air,N2_storage,Utilities Installation - O2/N2 Tank ,0,0,0,0,0
+Air,N2_storage,N2 Bare Tank,1443.257746,0,0,0,0
+Air,N2_storage,HPGA Fluid,1107.914821,0,0,0,0
+Air,N2_storage,"Handhold, top mounted",2.92486588,0,0,0,0
+Air,N2_storage,Handrail 21.941 in custom,5.118515289,0,0,0,0
+Air,N2_storage,"Handrail, top mounted",5.362254113,0,0,0,0
+Air,N2_storage,"Grapple fixture, flt releasable",150.6305928,0,0,0,0
+Air,N2_storage,Accessories,72.23565213,0,0,0,0
+Air,O2_storage,MD Shield Instl,0,0,0,0,0
+Air,O2_storage,Multilayer Insulation Assembly-T #1,0,0,0,0,0
+Air,O2_storage,Multilayer Insulation Assembly-T #2,0,0,0,0,0
+Air,O2_storage,Primary Structure Assembly -HPG ORU,0,0,0,0,0
+Air,O2_storage,Tank ORU Assembly,0,0,0,0,0
+Air,O2_storage,Utilities Installation - O2/N2 Tank ,0,0,0,0,0
+Air,O2_storage,O2 Bare Tank,1010.347586,0,0,0,0
+Air,O2_storage,HPGA Fluid,506.6396872,0,0,0,0
+Air,O2_storage,"Handhold, top mounted",1.337515399,0,0,0,0
+Air,O2_storage,Handrail 21.941 in custom,2.340651948,0,0,0,0
+Air,O2_storage,"Handrail, top mounted",2.452111565,0,0,0,0
+Air,O2_storage,"Grapple fixture, flt releasable",68.88204305,0,0,0,0
+Air,O2_storage,Accessories,50.56831807,0,0,0,0
+Air,CO2_reduction_sabatier,Condensing Heat Exchanger,1.480858831,0,0,0,0
+Air,CO2_reduction_sabatier,AAA heat exchanger,2.485727323,0,0,0,0
+Air,CO2_reduction_sabatier,ITCS Coolant Water Inlet QD,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,ITCS Coolant Water Outlet QD,0.359637145,0,0,0,0
+Air,CO2_reduction_sabatier,Heat Exchanger Inlet Temp,0.363636364,0,0,0,0
+Air,CO2_reduction_sabatier,Heat Exchanger Outlet Temp,0.363636364,0,0,0,0
+Air,CO2_reduction_sabatier,"Manifold, CO2",4.759903385,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Inlet Check Valve,0.105775631,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Inlet Filter,0.055080597,0,0,0,0
+Air,CO2_reduction_sabatier,"Pressure sensor, CO2 Inlet",0.409090909,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Inlet QD,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Inlet Regulator,0.925536769,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Inlet NC Solenoid,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Inlet Flow Control,2.168400431,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Flow Control Orifice,0.052887815,0,0,0,0
+Air,CO2_reduction_sabatier,"Delta P Sensor, Flow Sensor CO2",0.909090909,0,0,0,0
+Air,CO2_reduction_sabatier,CO2 Flow Meter Orifice,0.026443908,0,0,0,0
+Air,CO2_reduction_sabatier,"Manifold, Hydrogen",4.416132585,0,0,0,0
+Air,CO2_reduction_sabatier,Water Outlet Quick Disconnect,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,Hydrogen Inlet Check Valve,0.105775631,0,0,0,0
+Air,CO2_reduction_sabatier,Hydrogen Inlet Filter,0.055080597,0,0,0,0
+Air,CO2_reduction_sabatier,H2O Outlet Pressure Sensor,0.818181818,0,0,0,0
+Air,CO2_reduction_sabatier,Hydrogen Inlet Quick Disconnect,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,Hydrogen Inlet NC Solenoid,0.951980677,0,0,0,0
+Air,CO2_reduction_sabatier,"Delta P Sensor, Flow Sensor H2",0.909090909,0,0,0,0
+Air,CO2_reduction_sabatier,H2 Flow Meter Orifice,0.026443908,0,0,0,0
+Air,CO2_reduction_sabatier,"Manifold, Vent",5.103674185,0,0,0,0
+Air,CO2_reduction_sabatier,Liquid Sensor,1.090909091,0,0,0,0
+Air,CO2_reduction_sabatier,Vent Pressure Sensor,0.818181818,0,0,0,0
+Air,CO2_reduction_sabatier,Vent Outlet Quick Disconnect,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,Vent Regulator,0.925536769,0,0,0,0
+Air,CO2_reduction_sabatier,Vent Relief/Check #1,0.158663446,0,0,0,0
+Air,CO2_reduction_sabatier,Vent Relief/Check #2,0.158663446,0,0,0,0
+Air,CO2_reduction_sabatier,Vent Outlet NO Solenoid,0.951980677,0,0,0,0
+Air,CO2_reduction_sabatier,Water Pressure Sensor,0.818181818,0,0,0,0
+Air,CO2_reduction_sabatier,Water Relief,0.158663446,0,0,0,0
+Air,CO2_reduction_sabatier,Water Outlet NC Solenoid,0.475990338,0,0,0,0
+Air,CO2_reduction_sabatier,Rotary Water Separator Assembly,4.072361785,0,22.80150744,22.80150744,0
+Air,CO2_reduction_sabatier,Sabatier Reactor Assembly,2.538615138,0,3.257358205,3.257358205,0
+Air,CO2_reduction_sabatier,Structure (A/R),9.228923785,0,0,0,0
+Air,CO2_reduction_sabatier,"Miscellaneous Hardware (Clampts, bolts, etc.) (A/R)",1.772727273,0,0,0,0
+Air,CO2_reduction_sabatier,Air Cooling NC Solenoid,0.634653785,0,0,0,0
+Air,CO2_reduction_sabatier,Air Inlet Filter,0.110161193,0,0,0,0
+Air,CO2_reduction_sabatier,Air Sabatier Orifice,0.052887815,0,0,0,0
+Air,CO2_reduction_sabatier,Heat Exchanger Inlet Duct,0.105775631,0,0,0,0
+Air,CO2_reduction_sabatier,Heat Exchanger Outlet Duct,0.105775631,0,0,0,0
+Air,CO2_reduction_sabatier,Reactor Inlet Duct,0.211551262,0,0,0,0
+Air,CO2_reduction_sabatier,Reactor Outlet Duct,0.105775631,0,0,0,0
+Air,CO2_reduction_sabatier,Tubing (A/R),0.6875416,0,0,0,0
+Air,CO2_reduction_sabatier,Harnesses,11.45454545,0,0,0,0
+Air,CO2_reduction_sabatier,Valves & Sensors' total power,0,0,7.573582051,7.573582051,0
+Air,CO2_reduction_sabatier,Mechanical Compressor ORU,19.03961354,0,45.60301487,45.60301487,0
+Air,CO2_reduction_sabatier,Compressor Manifold Assembly,4.654127754,0,0,0,0
+Air,CO2_reduction_sabatier,Controller Assembly,28.59090909,0,55,55,0
+Air,CO2_reduction_sabatier,CO2 Accumulator,10.1094636,0.011937838,0,0,0
+Air,OGS_ISS,Deionizing Bed ORU (Inlet),8.002432328,0.009817537,0,0,0
+Air,OGS_ISS,Deionizing Bed ORU (Recirculating),8.002432328,0.009817537,0,0,0
+Air,OGS_ISS,Oxygen/Water ORU,36.71625609,0.024971012,0,0,0
+Air,OGS_ISS,Pump ORU,6.512143412,0.006031228,23.95738576,23.95738576,0
+Air,OGS_ISS,Oxygen Phase Separator ORU,22.02495649,0.005492747,0,0,0
+Air,OGS_ISS,Hydrogen ORU,96.2969715,0.050989603,31.61043955,31.61043955,0
+Air,OGS_ISS,Hydrogen Sensor ORU,4.59,0.00344,0,0,0
+Air,OGS_ISS,Process Controller,40.09,0.1359,148,148,0
+Air,OGS_ISS,Power Supply Module (PSM),13.80877096,0.021594921,1098.046848,549.0234238,0
+Air,Fire_det_sup,Fire Detection Assembly ,1.5,0.0028,1.48,1.48,0.887671233
+Air,Fire_det_sup,Portable Fire Extinguisher,6.8,0.0405,0,0,0
+Air,ACO2R,Regenerator 1,45.3,0.17,397,397,0
+Air,ACO2R,Metox Canisters,136,0.057,0,0,0
+Air,TCCS_ISS,Activated charcoal bed ,139.0215264,0.287060665,0,0,0
+Air,TCCS_ISS,Blower Assembly ,2.485714286,0.004885714,30.39285714,30.39285714,0
+Air,TCCS_ISS,Flow Meter Assembly ,1.1,0.0003,11.5,11.5,0
+Air,TCCS_ISS,Catalytic Oxidizer Assembly ,8.457142857,0.018514286,92.19047619,92.19047619,0
+Air,TCCS_ISS,LiOH Sorbent bed assembly,9.431686569,0.01817325,0,0,0
+Air,TCCS_ISS, Electrical interface assembly,4.5,0.00487,7.6,7.6,0
+Waste,PMWC,Aluminum Compaction cylinder,9.413935622,0.023415373,0,0,5400
+Waste,PMWC,Band-type heating unit,0,0,162.29304,0,0
+Waste,PMWC,"Commercial Lightweight, oil-less, compressor/vacuum pump",0,0,3.222827158,0,0
+Waste,PMWC,Temperature sensor,0.224,0,0,0,0
+Waste,PMWC,Pressure sensor,0.304,0,0.33,0,0
+Waste,PMWC,Housing & Mounting Equipment,23.89323762,0.477864752,0,0,0
+Waste,PMWC,Condensing Heat Exchanger,2.853094276,0.005669348,0,0,0
+Waste,PMWC,Cooling system,0,0,144.8873152,144.8873152,0
+Waste,Waste_storage,Low Density PolyEthylene Box,531.1468052,14.75407792,0,0,0
+Waste,Waste_collection_ISS,Commode/Urinal,58.4,0.3,0,0,887.6712329
+Waste,Waste_collection_ISS,Fan,0,0,102,102,0
+Waste,Waste_collection_ISS,Urine Separator,0,0,125,125,0
+Waste,Waste_collection_ISS,Urine Vent Heater,0,0,14,14,0
+Waste,Waste_collection_ISS,Fecal Bags,589.0909091,6.5772,0,0,0
+Waste,Waste_collection_ISS,"Wipes, Dry",196.3636364,2.65470372,0,0,0
+Waste,Waste_collection_ISS,"Wipes, Wet",306.8181818,1.592822232,0,0,0
+Waste,Waste_collection_ISS,"Wipes, Toilet Tissue",106.0363636,1.29466582,0,0,0
+Waste,Waste_collection_ISS,Gloves,167.8909091,0.764554671,0,0,0
+Waste,Waste_collection_ISS,Fecal Bags Odor Lids,883.6363636,8.262,0,0,0
+Waste,Waste_collection_ISS,Fecal collection Canisters,1051.948052,13.77,0,0,0
+Waste,Waste_collection_ISS,Fecal collection Canisters lids,525.974026,2.152285714,0,0,0
+Waste,Waste_collection_ISS,Urine Prefilters,920.4545455,5.0058,0,0,0
+Waste,Waste_collection_ISS,Urine Filters,131.4935065,1.062257143,0,0,0
+Waste,Waste_collection_ISS,Urine Funnels,1.163636364,0.006552,0,0,0
+Waste,Waste_collection_ISS,Flush Water Transfer Bags,168.3116883,2.349,0,0,0
+Waste,TCCS_ISS_2,Activated charcoal bed ,278.0430528,0.574121331,0,0,0
+Waste,TCCS_ISS_2,Blower Assembly ,4.971428571,0.009771429,60.78571429,60.78571429,0
+Waste,TCCS_ISS_2,Flow Meter Assembly ,2.2,0.0006,23,23,0
+Waste,TCCS_ISS_2,Catalytic Oxidizer Assembly ,16.91428571,0.037028571,184.3809524,184.3809524,0
+Waste,TCCS_ISS_2,LiOH Sorbent bed assembly,18.86337314,0.036346499,0,0,0
+Waste,TCCS_ISS_2, Electrical interface assembly,9,0.00974,15.2,15.2,0
+Water,VCD_ISS,MLS Filter ORU,118.2083751,0.16584944,0,0,0
+Water,VCD_ISS,Particulate Filter ORU,612.4809941,1.55746472,0,0,0
+Water,VCD_ISS,Multifiltration Bed #1 & #2 ORUs,5001.85571,6.513814076,0,0,0
+Water,VCD_ISS,Sensor ORU,3.64,0.0093,2.13,2.13,0
+Water,VCD_ISS,Piping,0.737628062,0.001003909,0,0,0
+Water,VCD_ISS,Pump/MLS ORU,18.38017594,0.05765417,19.49845439,19.49845439,0
+Water,VCD_ISS,Catalytic Reactor & Preheeater ORU,0,0,107.2525402,107.2525402,0
+Water,VCD_ISS,Oxygen Filter,0,0,0,0,0
+Water,VCD_ISS,Microbial Check Valve,5.124267421,0.008929689,0,0,0
+Water,Potable_water_tank,Gas Separator ORU,26.17379612,0.057055684,50.42658035,50.42658035,0
+Water,Potable_water_tank,Hygiene H2O Tank,58.21940678,0.108458998,4.706958179,4.706958179,0
+Water,WRS,Product H2O Tank,32.76379408,0.116372315,5.240365384,5.240365384,0
+Water,WRS,Process Controller,36.91,0.0838,156.18,156.18,0
+Water,WRS,Reactor Health Sensor,8.64,0.0422,4.72,4.72,0
+Water,WRS,H2O Delivery System,26.08734812,0.064769506,1.924590863,1.924590863,0
+Water,WRS,Ion Exchange Bed,83.02117597,0.112991476,0,0,0
+Water,WRS,Pressure Control & Pump (PCPA),33.59658057,0.0547461,9.746516956,9.746516956,0
+Water,WRS,Fluid Control & Pump (FCPA),34.21069551,0.054296747,14.13710186,14.13710186,0
+Water,WRS,Recycle Filter Tank (RFTA),14.2968953,0.076315015,0,0,0
+Water,WRS,Wastewater Storage Tank Assembly (WSTA),35.84334254,0.030780639,0.139568262,0.139568262,0
+Water,WRS,Distillation Assembly (DA),56.71576119,0.113236803,135.0788161,135.0788161,0
+Water,WRS,Separator Plumbing Assembly (SPA),12.22238509,0.018648124,0,0,0
+Water,WRS,Power Module (Included in FCA),0,0,0,0,0
+Water,WRS,"Firmware Controller Assembly (Data module, power module)",24.09,0.0286,150.09,150.09,0
+Water,WRS,Piping ,9.344283009,0.017401171,0,0,0
+Water,WRS,Product H2O Tank,937.4335455,3.329630007,116.4802864,116.4802864,0
+Water,WRS,H2O Stored,2897.034974,0,0,0,0
+Food,Stored_food,Packaging,29004.84914,0,0,0,0
+Food,Food_storage,Storage,7112.330829,99.24182552,0,0,0
+Food,Food_processing,Rehydration Unit and Conduction Oven,36.3,0.094,10,10,0
+Thermal,CCAA,Inlet ORU ,0,0,298.9985904,298.9985904,0
+Thermal,CCAA,Condensing heat exchanger ,34.88637054,0.069196107,0,0,0
+Thermal,CCAA,Water separator,5.302128071,0.036580228,3.340845254,3.340845254,0
+Thermal,CCAA,Temp. Control & Check Valve,3.887032256,0.026379992,0.059855914,0.059855914,0
+Thermal,CCAA,Electrical Interface Box (EIB),4.1,0.0113,8,8,0
+Thermal,CCAA,Temp. Sensor,0.24,0.0006,0.01,0.01,0
+Thermal,CCAA,Liquid Sensor,0.47,0.0006,0.01,0.01,0
+Thermal,CCAA,Fan Delta P Sensor,0.4,0.00024,0.2,0.2,0
+Thermal,CCAA,Pressure Sensor,0.3,6.00E-05,0.2,0.2,0
+Thermal,AMC,HEPA Filter Element ,49.22,0.1886,0,0,29.5890411
+Thermal,AMC,Catalytic Filter element,54,0.082,0,0,0
+Thermal,AC,IMV Fan,4.77,0.0093,55,55,0
+Thermal,AC,IMV Valve,5.1,0.0099,6,6,0
+Thermal,AAA,Avionics Air Assembly ,12.4,0.034,175,175,0
+Thermal,ITCS,ITCS,217.2305202,0.363728609,2669.937411,2669.937411,0
