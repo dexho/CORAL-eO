@@ -20,8 +20,8 @@ my @termsFound = ();
 
 # object holding the units ontology
 my $parser = OBO::Parser::OBOParser->new();
-my $uo = $parser->work("/home/coral/prod/data_import/ontologies/unit_standalone.obo");
-my $uo2 = $parser->work("/home/coral/prod/data_import/ontologies/context_measurement_ontology.obo");
+my $uo = $parser->work("/Users/desho/CORAL-eO/example/enigma/ontologies/unit_standalone.obo");
+my $uo2 = $parser->work("/Users/desho/CORAL-eO/example/enigma/ontologies/context_measurement_ontology.obo");
 
 # object holding the whole ontology
 my $ont;
